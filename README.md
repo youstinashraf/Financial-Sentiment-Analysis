@@ -19,20 +19,6 @@ Financial news moves markets, and analysts can't read everything. Automatically 
 6. **Training:** Adam optimizer (lr = 0.001) with **early stopping** (patience = 6).
 7. **Evaluation:** accuracy, a per-class classification report, and a confusion matrix.
 
-## 📈 Results
-
-| Metric | Value |
-|---|---|
-| Test accuracy | **[XX]%** |
-| Macro F1-score | **[0.XX]** |
-
-| Sentiment | F1-score |
-|---|---|
-| Positive | [0.XX] |
-| Neutral | [0.XX] |
-| Negative | [0.XX] |
-
-Oversampling is applied **only to the training set**, after the train/test split. This keeps the test set made of unseen, original sentences, so the score reflects real-world performance.
 
 ## 🔍 Try it
 The notebook includes a `prediction()` function for classifying new sentences:
